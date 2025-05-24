@@ -9,7 +9,7 @@ $(document).ready(function () {
   $(".slider-courses").slick({
     dots: false,
     prevArrow:
-      '<button type="button" class="slick-prev custom-prev"><i class="fa-solid fa-chevron-right"></i></button>',
+      '<button type="button" class="slick-prev custom-prev"><i class="fa-solid fa-chevron-left"></i></button>',
     nextArrow:
       '<button type="button" class="slick-next custom-next"><i class="fa-solid fa-chevron-right"></i></i></button>',
   });

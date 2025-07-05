@@ -4,13 +4,16 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Lesson</title>
    <link rel="stylesheet" href="all.min.css">
    <link rel="stylesheet" href="slick.css">
+   <link rel="stylesheet" href="meanmenu.css">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
+
    <!-- hero section -->
    <div class="hero">
       <!-- menu -->
@@ -19,16 +22,19 @@
             <a href=""> <img class="Logo" src="img/Logo.png" alt=""></a>
             <div class="sub-menu">
                <div class="menu">
-                  <ul>
-                     <li><a href="">Home</a></li>
-                     <li><a href="">Courses</a></li>
-                     <li><a href="">Pricing</a></li>
-                     <li><a href="">Reviews</a></li>
-                  </ul>
+                  <nav id="mobile-menu">
+                     <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Reviews</a></li>
+                     </ul>
+                  </nav>
                </div>
                <a class="menu-btn" href="">Sign Up</a>
             </div>
          </div>
+         <div class="mobile-menu"></div>
       </div>
 
       <!-- hero-poster -->
@@ -94,119 +100,132 @@
                      </div>
 
                   </div>
-               </div>
-               <div class="slider-courses">
-                  <div class="popular-courses-card">
-                     <div class="courses-card">
-                        <div class="courses-card-img">
-                           <img src="img/courses1.jpg" alt="">
-                        </div>
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>Basic web design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
+                  <div class=" popular-courses-card">
+                     <div class="slider-courses">
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <div class="courses-card-img">
+                                 <img src="img/courses1.jpg" alt="">
+                              </div>
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>Basic web design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
                               </div>
                            </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
+                        </div>
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <div class="courses-card-img">
+                                 <img src="img/courses2.jpg" alt="">
+                              </div>
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>UI/UX design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <div class="courses-card-img">
+                                 <img src="img/courses3.jpg" alt="">
+                              </div>
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>Web App design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <img src="img/courses1.jpg" alt="">
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>Basic web design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <img src="img/courses2.jpg" alt="">
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>UI/UX design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="courses-card-inner">
+                           <div class="courses-card">
+                              <img src="img/courses3.jpg" alt="">
+                              <div class="courses-content">
+                                 <div class="courses-header">
+                                    <h3>Web App design</h3>
+                                    <div class="revies">
+                                       <span><img src="img/Star .svg" alt=""></span>
+                                       <span class="rating">4.5</span>
+                                    </div>
+                                 </div>
+                                 <p>Get the best course, gain knowledge and shine for your future career.</p>
+                                 <div class="courses-pricing">
+                                    <h4>$120.75</h4>
+                                    <a href="">Book Now</a>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                     <div class="courses-card">
-                        <div class="courses-card-img">
-                           <img src="img/courses2.jpg" alt="">
-                        </div>
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>UI/UX design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
-                              </div>
-                           </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="courses-card">
-                        <div class="courses-card-img">
-                           <img src="img/courses3.jpg" alt="">
-                        </div>
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>Web App design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
-                              </div>
-                           </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="popular-courses-card">
-                     <div class="courses-card">
-                        <img src="img/courses1.jpg" alt="">
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>Basic web design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
-                              </div>
-                           </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="courses-card">
-                        <img src="img/courses2.jpg" alt="">
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>UI/UX design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
-                              </div>
-                           </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="courses-card">
-                        <img src="img/courses3.jpg" alt="">
-                        <div class="courses-content">
-                           <div class="courses-header">
-                              <h3>Web App design</h3>
-                              <div class="revies">
-                                 <span><img src="img/Star .svg" alt=""></span>
-                                 <span class="rating">4.5</span>
-                              </div>
-                           </div>
-                           <p>Get the best course, gain knowledge and shine for your future career.</p>
-                           <div class="courses-pricing">
-                              <h4>$120.75</h4>
-                              <a href="">Book Now</a>
-                           </div>
-                        </div>
-                     </div>
+                     <!-- <div class="popular-courses-card">
+                       
+                     </div> -->
                   </div>
                </div>
 
@@ -216,53 +235,48 @@
 
       <!-- testimonial section -->
       <div class="testimonial-section">
-         <div class="containe">
+         <div class="container">
             <div class="slick-slider">
-               <div>
-                  <div class="testimonial-content">
-                     <div class="testimonial-profile">
-                        <img src="img/test-profile.png" alt="">
-                        <h3>Peter Moor</h3>
-                        <p>Student of Web Design</p>
-                     </div>
-                     <div class="testimonial-description">
-                        <img src="img/testi-icon.svg" alt="">
-                        <p>Not only does my resume look impressive—filled with the names and logos of world-class
-                           institutions—but these certificates also bring me closer to my career goals by validating the
-                           skills I've learned." </p>
-                     </div>
+               <div class="testimonial-content">
+                  <div class="testimonial-profile">
+                     <img src="img/test-profile.png" alt="">
+                     <h3>Peter Moor</h3>
+                     <p>Student of Web Design</p>
+                  </div>
+                  <div class="testimonial-description">
+                     <img src="img/testi-icon.svg" alt="">
+                     <p>Not only does my resume look impressive—filled with the names and logos of world-class
+                        institutions—but these certificates also bring me closer to my career goals by validating the
+                        skills I've learned." </p>
                   </div>
                </div>
-               <div>
-                  <div class="testimonial-content">
-                     <div class="testimonial-profile">
-                        <img src="img/test-profile.png" alt="">
-                        <h3>Peter Moor</h3>
-                        <p>Student of Web Design</p>
-                     </div>
-                     <div class="testimonial-description">
-                        <img src="img/testi-icon.svg" alt="">
-                        <p>Not only does my resume look impressive—filled with the names and logos of world-class
-                           institutions—but these certificates also bring me closer to my career goals by validating the
-                           skills I've learned." </p>
-                     </div>
+               <div class="testimonial-content">
+                  <div class="testimonial-profile">
+                     <img src="img/test-profile.png" alt="">
+                     <h3>Peter Moor</h3>
+                     <p>Student of Web Design</p>
+                  </div>
+                  <div class="testimonial-description">
+                     <img src="img/testi-icon.svg" alt="">
+                     <p>Not only does my resume look impressive—filled with the names and logos of world-class
+                        institutions—but these certificates also bring me closer to my career goals by validating the
+                        skills I've learned." </p>
                   </div>
                </div>
-               <div>
-                  <div class="testimonial-content">
-                     <div class="testimonial-profile">
-                        <img src="img/test-profile.png" alt="">
-                        <h3>Peter Moor</h3>
-                        <p>Student of Web Design</p>
-                     </div>
-                     <div class="testimonial-description">
-                        <img src="img/testi-icon.svg" alt="">
-                        <p>Not only does my resume look impressive—filled with the names and logos of world-class
-                           institutions—but these certificates also bring me closer to my career goals by validating the
-                           skills I've learned." </p>
-                     </div>
+               <div class="testimonial-content">
+                  <div class="testimonial-profile">
+                     <img src="img/test-profile.png" alt="">
+                     <h3>Peter Moor</h3>
+                     <p>Student of Web Design</p>
+                  </div>
+                  <div class="testimonial-description">
+                     <img src="img/testi-icon.svg" alt="">
+                     <p>Not only does my resume look impressive—filled with the names and logos of world-class
+                        institutions—but these certificates also bring me closer to my career goals by validating the
+                        skills I've learned." </p>
                   </div>
                </div>
+
             </div>
          </div>
       </div>
@@ -422,6 +436,7 @@
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/all.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.meanmenu.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

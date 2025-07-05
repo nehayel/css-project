@@ -1,0 +1,388 @@
+/* Medium desktop: 992px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+    width: 100%;
+  }
+  .poster-img {
+    width: 440px;
+  }
+  .poster-img img {
+    width: 100%;
+  }
+  .poster-text {
+    width: 409px;
+  }
+  .poster-text h1 {
+    font-size: 51px;
+  }
+  .poster-details {
+    width: 250px;
+    right: -45px;
+    gap: 12px;
+  }
+  .poster-details .img-content {
+    width: 45px;
+  }
+  .popular-courses-card {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .courses-card {
+    width: 294px;
+  }
+  .testimonial-content {
+    gap: 115px;
+  }
+  .testimonial-description {
+    width: 666px;
+  }
+  .platform-img .platform-img-scal {
+    width: 260px;
+  }
+  .platform-img {
+    width: 550px;
+  }
+  .platform-content {
+    width: 337px;
+  }
+  .professional-content {
+    width: 481px;
+  }
+  .professional-content h3 {
+    font-size: 33px;
+  }
+  .professional-img {
+    width: 400px;
+  }
+  .blog-cards .card {
+    width: 290px;
+  }
+}
+
+/* tablet desktop: 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 750px;
+    width: 100%;
+  }
+  .hero-poster {
+    flex-direction: column;
+  }
+  .poster-img {
+    width: 100%;
+    text-align: center;
+  }
+  .poster-text {
+    width: 100%;
+  }
+  .testimonial-content .testimonial-profile h3 {
+    font-size: 22px;
+  }
+  .testimonial-description {
+    width: 500px;
+  }
+  .testimonial-description p {
+    font-size: 18px;
+  }
+  .platform {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .platform-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .platform-img {
+    width: 100%;
+    justify-content: center;
+  }
+  .platform-content {
+    width: 100%;
+  }
+  .professional-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .professional-content {
+    width: 100%;
+    text-align: center;
+  }
+  .professional-img {
+    width: 470px;
+    text-align: center;
+  }
+  .professional {
+    padding-bottom: 100px;
+  }
+  .blog-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .blog-cards .card {
+    width: 345px;
+  }
+  .footer-support {
+    display: none;
+  }
+}
+
+/* small mobile: 320px */
+@media (max-width: 767px) {
+  .container {
+    max-width: 300px;
+    width: 100%;
+  }
+  .sub-menu {
+    gap: 0;
+  }
+
+  .mobile-menu .mean-bar {
+    margin-top: 30px;
+  }
+  .hero-poster {
+    width: 100%;
+  }
+  .poster-img {
+    width: 100%;
+  }
+  .img-content {
+    width: 30px;
+    height: 30px;
+  }
+
+  .img-content img {
+    width: 100%;
+  }
+
+  .ux-description h4,
+  .development-description h4,
+  .marketing-description h4 {
+    font-size: 12px;
+  }
+
+  .ux-description h2,
+  .development-description h2,
+  .marketing-description h2 {
+    font-size: 16px;
+  }
+
+  .poster-details {
+    gap: 11px;
+    padding: 16px;
+  }
+
+  .poster-text {
+    width: 100%;
+    margin-top: 295px;
+  }
+
+  .hero-poster {
+    flex-wrap: wrap;
+  }
+
+  .poster-img img {
+    width: 100%;
+  }
+
+  .poster-details {
+    left: 0;
+    top: 100%;
+    height: 57%;
+  }
+
+  .poster-text h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .poster-text p {
+    font-size: 16px;
+  }
+
+  .poster-text-btn .btn-yellow {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 49px;
+  }
+  .platform-img {
+    flex-direction: column;
+  }
+
+  .platform-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .platform-content {
+    margin-top: 30px;
+  }
+
+  .platform-content h3 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .platform-content p {
+    font-size: 14px;
+  }
+
+  .professional-content {
+    width: 100%;
+  }
+
+  .professional-img {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .professional-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .professional-content h3 {
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .professional-content p {
+    font-size: 14px;
+  }
+
+  .blog-header {
+    width: 100%;
+  }
+
+  .blog-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .footer-support {
+    /* display: none; */
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .footer-wrapper {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .footer-company .footer-company-header:after {
+    width: 100%;
+  }
+
+  .footer-address .footer-address-header::after {
+    width: 100%;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-company {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .footer-address {
+    width: 100%;
+  }
+
+  .footer-copyright {
+    padding: 20px 0;
+  }
+  .slider-courses button.slick-next {
+    left: 88px;
+    top: 104%;
+  }
+
+  .slider-courses button.slick-prev {
+    left: 136px;
+    top: 104%;
+  }
+
+  .popular-courses-card {
+    padding-top: 68px;
+  }
+
+  .testimonial-content .testimonial-profile {
+    width: 100%;
+    text-align: center;
+  }
+
+  .testimonial-description {
+    width: 100%;
+  }
+
+  div#slick-slide00 {
+  }
+
+  .testimonial-content {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-profile img {
+    display: inline-block;
+  }
+
+  .testimonial-content .testimonial-profile h3 {
+    margin-top: 10px;
+  }
+
+  .testimonial-description img {
+    left: 0;
+  }
+
+  .testimonial-description p {
+    font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+  }
+  .slick-slider .slick-dots {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .testimonial-section {
+    padding: 45px;
+  }
+  .platform {
+    padding: 50px 0;
+  }
+  .professional {
+    padding-bottom: 60px;
+  }
+}
+
+/* large mobile: 480px */
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 450px;
+    width: 100%;
+  }
+  .poster-details {
+    height: 37%;
+    margin: 0 auto;
+  }
+
+  .courses {
+    padding-top: 70px;
+  }
+
+  .popular-courses-header .header-title {
+    text-align: center;
+  }
+
+  .slider-courses button.slick-next {
+    left: 142px;
+    top: 109%;
+  }
+
+  button.slick-prev.custom-prev.slick-arrow {
+    left: 193px;
+    top: 109%;
+  }
+  .blog-cards {
+    justify-content: center;
+  }
+}
